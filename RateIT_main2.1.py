@@ -243,7 +243,7 @@ def welcome_screen():
 
     
 import json
-file = 'rateIT_index.txt'
+file = 'RateIT_index.txt'
 open_file = json.load(open(file, 'r+'))
 #read_file = open_file.readlines()
 
